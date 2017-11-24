@@ -11,9 +11,6 @@ import CoreML
 import Vision
 
 class ViewController: UIViewController {
-
-    //创建建模型model
-    //let model = GoogLeNetPlaces()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +23,10 @@ class ViewController: UIViewController {
     
     func startIdentifyingPictures() {
         //拖入素材，拿到图片URL
-        let path = Bundle.main.path(forResource: "111", ofType: "png")
+        let path = Bundle.main.path(forResource: "puppy", ofType: "jpg")
         let imageUrl = NSURL.fileURL(withPath: path!)
         //拿到模型文件
-        let fileModel = Resnet50()//GoogLeNetPlaces()
+        let fileModel = SqueezeNet()//GoogLeNetPlaces()
         // 把模型拿來做视觉处理
         let model = try! VNCoreMLModel(for: fileModel.model)
         //创建识别图片的请求头

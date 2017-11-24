@@ -12,11 +12,10 @@
 		04B30D3C1FC7B07C00AFC258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B30D3A1FC7B07C00AFC258 /* Main.storyboard */; };
 		04B30D3E1FC7B07C00AFC258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B30D3D1FC7B07C00AFC258 /* Assets.xcassets */; };
 		04B30D411FC7B07C00AFC258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B30D3F1FC7B07C00AFC258 /* LaunchScreen.storyboard */; };
-		04B30D491FC7B30A00AFC258 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04B30D481FC7B30900AFC258 /* GoogLeNetPlaces.mlmodel */; };
 		04B30D4D1FC7B33200AFC258 /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B30D4A1FC7B33100AFC258 /* puppy.jpg */; };
 		04B30D4E1FC7B33200AFC258 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B30D4B1FC7B33100AFC258 /* 111.png */; };
 		04B30D4F1FC7B33200AFC258 /* puppy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B30D4C1FC7B33200AFC258 /* puppy2.jpg */; };
-		04B30D511FC7BE2100AFC258 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04B30D501FC7BE2100AFC258 /* Resnet50.mlmodel */; };
+		04B30D531FC7C88600AFC258 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04B30D521FC7C88600AFC258 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +26,10 @@
 		04B30D3D1FC7B07C00AFC258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B30D401FC7B07C00AFC258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B30D421FC7B07C00AFC258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04B30D481FC7B30900AFC258 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		04B30D4A1FC7B33100AFC258 /* puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy.jpg; sourceTree = "<group>"; };
 		04B30D4B1FC7B33100AFC258 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
 		04B30D4C1FC7B33200AFC258 /* puppy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy2.jpg; sourceTree = "<group>"; };
-		04B30D501FC7BE2100AFC258 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		04B30D521FC7C88600AFC258 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +62,7 @@
 		04B30D351FC7B07C00AFC258 /* MLPhotos(识别图片) */ = {
 			isa = PBXGroup;
 			children = (
-				04B30D481FC7B30900AFC258 /* GoogLeNetPlaces.mlmodel */,
-				04B30D501FC7BE2100AFC258 /* Resnet50.mlmodel */,
+				04B30D521FC7C88600AFC258 /* SqueezeNet.mlmodel */,
 				04B30D361FC7B07C00AFC258 /* AppDelegate.swift */,
 				04B30D381FC7B07C00AFC258 /* ViewController.swift */,
 				04B30D4B1FC7B33100AFC258 /* 111.png */,
@@ -155,9 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B30D391FC7B07C00AFC258 /* ViewController.swift in Sources */,
+				04B30D531FC7C88600AFC258 /* SqueezeNet.mlmodel in Sources */,
 				04B30D371FC7B07C00AFC258 /* AppDelegate.swift in Sources */,
-				04B30D511FC7BE2100AFC258 /* Resnet50.mlmodel in Sources */,
-				04B30D491FC7B30A00AFC258 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
